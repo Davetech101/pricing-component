@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <div class="top">
+
+      <div class="container">
+
+        <h1>Simple, traffic-based pricing</h1>
+
+      <p>
+        Sign-up for our 30-day trial. No credit card required. 
+      </p>
+
+      <div class="svg">
+        <img src="./images/pattern-circles.svg" alt="">
+      </div>
+
+      </div>
+
+    </div>
+
+    <div class="buttom">
+
+      <section>
+        
+        <h2>
+          <span>
+            <span class="range">100K</span>
+           <span class="pageviews">Pageviews</span>
+          </span>
+
+          <div class="price up">
+            <span class="amount">$16.00</span> 
+           <span class="per-month">/month</span>
+         </div>
+        </h2>
+
+        <div class="range-select">
+
+          <div class="line">
+            <div class="line-2">
+            
+            </div>
+          </div>
+
+          
+
+          
+          <div class="drags">
+            <div class="empty 10k"></div>
+            <div class="empty 50k"></div>
+            <div class="empty 100k">
+              <div class="circle" draggable="true">
+                <img src="./images/icon-slider.svg" alt="" draggable="false">
+             </div>
+            </div>
+            <div class="empty 500k"></div>
+            <div class="empty 1m"></div>
+          </div>
+          
+        </div>
+
+        <div class="price down">
+           <span class="amount">$16.00</span> 
+          <span class="per-month">/month</span>
+        </div>
+
+        <div class="billing">
+          <div class="monthly">Monthly Billing</div>
+
+           
+           <div class="toggle">
+            
+              <div class="ball">
+
+              </div>
+
+           </div>
+
+           <div class="yearly">Yearly Billing</div>
+           <span class="discount up">25% discount</span> 
+          <span class="discount down">-25%  <!-- discount--></span> 
+        </div>
+
+        <hr>
+
+        <div class="buttom">
+
+          <div class="benefits">
+            <span><img src="./images/icon-check.svg" alt="check">
+              Unlimited websites
+            </span>
+            <span><img src="./images/icon-check.svg" alt="check">
+              100% data ownership
+            </span>
+            <span><img src="./images/icon-check.svg" alt="cjeck">
+              Email reports
+            </span>
+          </div>
+
+          <button>Start my trial</button>
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/david-ogaranya-enomah-133b60223/" target="_blank">David Enomah</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
